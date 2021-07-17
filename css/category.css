@@ -1,0 +1,52 @@
+.categories {
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .categorycard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px 20px;
+    max-width: 200px;
+  }
+  
+  .categorycard img {
+    height: 150px;
+    object-fit: scale-down;
+  }
+  
+  .categorycardheader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+  
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.1px;
+  
+    /* Yellow */
+    color: #3C64B1;
+    padding:2px;
+    padding-top:10px;
+  }
+  
+  .categorycardbody {
+    font-size: 14px;
+    line-height: 20px;
+  
+    /* or 143% */
+    text-align: center;
+    letter-spacing: 0.2px;
+  
+    /* Light Grey */
+    color: #737b7d;
+    
+    padding:2px;
+    padding-top:10px;
+  }
+  

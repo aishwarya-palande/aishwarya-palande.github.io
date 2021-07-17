@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.resume {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background: rgba(165, 165, 165, 0.06);
+  display: flex;
+}
+
+.resumeinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.resumeheader {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  color: rgba(72, 79, 81, 1);
+  margin-bottom: 10px;
+}
+.resumeheader a {
+  color: #ff7262;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ff7262;
+  margin-top: 1px;
+  transition: 200ms ease-out;
+}
+
+.resumeheader a:hover{
+    background-color: #ff7262;
+    color: white;
+}
+.resumehero {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+.resumehero img{
+    max-width: 100%;
+    min-width: auto;
+}
+
+.experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.experience div{
+    width: 300px;
+    color: #737B7D;
+
+}

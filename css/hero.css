@@ -1,0 +1,113 @@
+.hero {
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .herounderlay {
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/hero2.png);
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-width: 50%;
+    
+  }
+  .heromain {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    min-width: 50%;
+    width: min-content;
+    max-width: 100%;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+  
+    /* or 109% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+  
+    /* White */
+    color: #ffffff;
+  }
+  
+  .herobuttons{
+    margin:15px;
+  }
+  
+  .herosubtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    min-width: 50%;
+    width: min-content;
+    max-width: 100%;
+    /* or 137% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    justify-content: center;
+    /* Dark Grey */
+    color: white;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+  
+  }
+  
+  .herocontact {
+    font-size:large;
+    padding: 10px;
+    color: #fff;
+    /* Yellow */
+    border: 1px solid #3C64B1;
+    box-sizing: border-box;
+    background: #3b3b3b;
+    mix-blend-mode: overlay;
+    transition: 200ms all;
+  }
+  
+  .herocontact:hover {
+    mix-blend-mode: unset;
+  }
+  
+  .herosign {
+    font-size: large;
+    font-weight: 500;
+    /* identical to box height, or 129% */
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    padding: 10px;
+    background: #3C64B1;
+    
+    
+  }
+  
+  .herosign:hover{
+    background:#597003;
+    opacity: 1;
+  }
+  
+  
+  @media screen and (max-device-width:700px) {
+    .hero{
+      display: none;
+    }
+    .heromain{
+      display: none;
+    }
+    .herosubtitle{
+      display: none;
+    }
+  }

@@ -1,0 +1,82 @@
+.newscards {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80vw;
+    margin: auto;
+    width: max-content;
+    max-width: 100%;
+    padding-top: 30px;
+    justify-content: space-around;
+    
+  }
+  
+  #achievements .newscard{
+    margin: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    background: rgb(186, 12, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  #projects .newscard{
+    margin: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    background: rgba(12, 0, 186, 0.06);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+  .newscard img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 10px;
+  }
+  
+  .newscardinner {
+    padding: 10px;
+  }
+  .newsheader {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 5px 5px;
+    /* identical to box height, or 233% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+  
+    /* Light Grey */
+    color: #737b7d;
+  }
+  
+  .newstitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 5px 5px;
+    /* or 133% */
+    letter-spacing: 0.1px;
+    /* Dark Grey */
+    color: #484f51;
+  }
+  
+  .newsbody {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 5px;
+    /* or 125% */
+    letter-spacing: 0.2px;
+    /* Light Grey */
+    color: #737b7d;
+  }
+  
